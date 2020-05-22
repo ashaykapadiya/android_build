@@ -1290,7 +1290,7 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
   device = target_info.GetBuildProp("org.extendedui.device")
 
   script.Print("----------------------------------------------");
-  script.Print("              ExtendedUI");
+  script.Print("              ShapeShiftOS");
   script.Print("----------------------------------------------");
   script.Print(" Android version: %s"%(android_version));
   script.Print(" Build id: %s"%(build_id));
@@ -2072,7 +2072,7 @@ else if get_stage("%(bcb_dev)s") != "3/3" then
   security_patch = target_info.GetBuildProp("ro.build.version.security_patch")
 
   script.Print("----------------------------------------------");
-  script.Print("              ExtendedUI");
+  script.Print("              ShapeShiftOS");
   script.Print("----------------------------------------------");
   script.Print(" Android version: %s"%(android_version));
   if prev_build_id != build_id:
@@ -2609,7 +2609,7 @@ def WriteIncrementalOTAPackage(target_zip, source_zip, output_file):
   security_patch = target_info.GetBuildProp("ro.build.version.security_patch")
 
   script.Print("----------------------------------------------");
-  script.Print("              ExtendedUI");
+  script.Print("              ShapeShiftOS");
   script.Print("----------------------------------------------");
   script.Print(" Android version: %s"%(android_version));
   if prev_build_id != build_id:
