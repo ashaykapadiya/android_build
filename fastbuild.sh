@@ -1,3 +1,4 @@
+#!/bin/bash
 # This was taken from @AndroidBuildersHelp on telegram, I have no idea who authored it, so please excuse any mistakes regarding that.
 # To use this, export DEVICE=(yourdevice), export VARIANT=(yourvariant) and then run the script
 
